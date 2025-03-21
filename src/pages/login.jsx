@@ -32,7 +32,7 @@ const Login = () => {
                 <div className="mb-4">
                     <label className="block mb-1">Email:</label>
                     <input
-                        type="email"
+                        type="text"
                         className="border p-2 rounded w-full"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
