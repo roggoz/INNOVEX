@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchProductDetails, placeBid } from '../redux/productionSlice';
+import { fetchProductDetails } from '../redux/productionSlice';
 import BidForm from '../components/Bidform';
 
 const ProductDetails = () => {
